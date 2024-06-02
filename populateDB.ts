@@ -6,9 +6,9 @@ import {UserRepository} from './repository/UserRepo';
 
 export async function populateUser(userrepo: UserRepository) {
     const userInfo = {
-        name: 'Lung Andreea',
+        name: 'Bica Doru',
         age: 20,
-        email: 'andreealung2003@yahoo.com',
+        email: 'dorubica47@yahoo.com',
         password: '0000',
         type: UserType.user,
     };
