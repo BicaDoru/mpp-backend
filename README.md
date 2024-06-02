@@ -1,1 +1,2 @@
-# mpp-backend
+# MPP_backend
+Backend for the Mpp project
