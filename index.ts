@@ -13,7 +13,7 @@ dotenv.config();
 const PORT = process.env.PORT || 3001;
 const MONGOURI =
     process.env.MONGODB_URI ||
-    'mongodb+srv://micuprinzz:test@mpp.sgdsygx.mongodb.net/?retryWrites=true&w=majority&appName=MPP';
+    'mongodb+srv://micuprinzz:test@mpp.krtjukq.mongodb.net/?retryWrites=true&w=majority&appName=MPP';
 mongoose
     .connect(MONGOURI)
     .then(() => {
